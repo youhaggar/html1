@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <TItle>
+        checkpoint Html
+     </TItle>
+</head> 
+<body>  
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <a href="#about"><li>About</li></a>
+                <a href="#work"><li>Work</li></a>
+                <a href="#Resume"></a><li>Resume</li></a>
+                <a href="#Contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About</h1>
+            <p>Html is the language that most websites are written with functionality</p>
+        </section>
+        <section id="Work">
+            <h1>Work</h1>
+            <img width="300" height="280" src="me.jfif" alt="Youssouf ">
+            <iframe width="450" height="320" src="https://www.youtube.com/embed/Z07ovb1JWAg"></iframe>
+        </section>
+        <section id="resume">
+            <h1>Resume</h1>
+            <table border="1">
+                <tr>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JS</th>
+                </tr>
+                <tr>
+                    <td>paragraphs</td>
+                    <td>Selectors</td>
+                    <td>DOM</td>
+                </tr>
+
+                <tr>
+                    <td>Tables</td>
+                    <td>Styles</td>
+                    <td>Elements</t>
+
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h1>contact</h1>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="first name" placeholder="type your name">
+                <br/>
+
+                <label>Number:</label>
+                <input type="number" name="number" value="123456789">
+                <br/>
+
+                <label>password:</label>
+                <input type="password" name="password">
+                <br/>
+
+                <select>
+                    <option value="webtrack">web Track</option>
+                    <option value="AITrack">AI Track</option>
+                    <option value="GameTrack">Game Track</option>
+                    <option value="DataScienceTrack">Data Science Track</option>
+                </select>
+                <br/>
+                
+                <textarea name="message" cols="30" rows="5">
+                    Welcome to GoMycode
+                </textarea>
+                <br>
+                
+                <label>Check1</label>
+                <input type="checkbox"/>
+                <label>Check2</label>
+                <input type="checkbox"/>
+                <label>check3</label>
+                <input type="checkbox"/>
+                <br>
+                
+
+                <fieldset>
+                    <legend>Select a maintenance drone:</legend>
+
+                    <div>
+                        <input type="radio" id="huey" name="drone" value="huey">
+                        <label for="huey">huey</label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="submit"/>
+                <button>Cancel</button>
+
+            </form>
+         </section>
+    </main>
+    <footer>
+        Gomycode 2023
+    </footer>
+</body>
+</html>
